@@ -4,9 +4,9 @@
 ![ESPNet Architecture](figs/architecture.png)
 
 ## Training Dataset
-You can download the training data we compiled from here: https://drive.google.com/file/d/144ADMZv0kvjlFqeGCpVbgTJ8ZAWhYPtI/view?usp=drive_link
-You can also download the pretrained transformer here: https://drive.google.com/file/d/1OmE2vEegPPTB1JZpj2SPA6BQnXqiuD1U/view?usp=share_link
-You will need to add their paths to the train.sh files.
+- You can download the training data we compiled from here: https://drive.google.com/file/d/144ADMZv0kvjlFqeGCpVbgTJ8ZAWhYPtI/view?usp=drive_link
+- You can also download the pretrained transformer here: https://drive.google.com/file/d/1OmE2vEegPPTB1JZpj2SPA6BQnXqiuD1U/view?usp=share_link
+- You will need to add their paths to train.sh in scripts.
 
 ## Prerequisites
 
