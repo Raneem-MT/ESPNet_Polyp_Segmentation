@@ -3,6 +3,9 @@
 ### Architecture
 ![ESPNet Architecture](figs/architecture.png)
 
+##
+You can download the training data we compiled from here: https://drive.google.com/file/d/144ADMZv0kvjlFqeGCpVbgTJ8ZAWhYPtI/view?usp=drive_link
+
 ## Results
 
 ### Seen Datasets
@@ -27,5 +30,4 @@ If you use this code or find our work helpful, please cite our paper:
   title     = {ESPNet: Edge-Aware Feature Shrinkage Pyramid for Polyp Segmentation},
   booktitle = {International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)},
   year      = {2025},
-  note      = {To appear}
 }
