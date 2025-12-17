@@ -5,6 +5,14 @@
 
 ## Training Dataset
 You can download the training data we compiled from here: https://drive.google.com/file/d/144ADMZv0kvjlFqeGCpVbgTJ8ZAWhYPtI/view?usp=drive_link
+You can also download the pretrained transformer here: https://drive.google.com/file/d/1OmE2vEegPPTB1JZpj2SPA6BQnXqiuD1U/view?usp=share_link
+You will need to add their paths to the train.sh files.
+
+## Prerequisites
+
+- Creating a virtual environment in terminal: `conda create -n ESPNet python=3.8`.
+- Installing necessary packages: `pip install -r requirements.txt`
+- Versions: torch==2.4.1 scipy==1.10.1 torchvision==0.7.0 timm==0.5.4
 
 ## Results
 
