@@ -11,7 +11,6 @@ You will need to add their paths to the train.sh files.
 ## Prerequisites
 
 - Creating a virtual environment in terminal: `conda create -n ESPNet python=3.8`.
-- Installing necessary packages: `pip install -r requirements.txt`
 - Versions: torch==2.4.1 scipy==1.10.1 torchvision==0.7.0 timm==0.5.4
 
 ## Results
