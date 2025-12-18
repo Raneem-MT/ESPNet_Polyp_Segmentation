@@ -1,4 +1,4 @@
-# ESPNet: Edge-Aware Feature Shrinkage Pyramid for Polyp Segmentation
+# ESPNet: Edge-Aware Feature Shrinkage Pyramid for Polyp Segmentation (MICCAI'25)
 
 ### Architecture
 ![ESPNet Architecture](figs/architecture.png)
