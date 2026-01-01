@@ -234,9 +234,8 @@ class EdgeFusion(nn.Module):
 
     def forward(self, f_r, f_l):
         # Apply gf1
-        f_l = self.channel_attention(f_l)
-        f_l = self.spatial_attention(f_l)
-       
+        f_r = self.channel_attention(f_r)
+        f_r = self.spatial_attention(f_r)
         
         f12 = self.gf(torch.cat((f_r, f_l), dim=1))
         f12 = self.channel_attention(f12)
