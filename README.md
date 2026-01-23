@@ -9,6 +9,10 @@
 - You will need to add their paths to train.sh in scripts.
 - When creating edge maps, we recommend dilating them; it produces better results.
 
+## Evaluation
+- You need to add the test datasets' paths in test.py, and the model checkpoint and results paths in test.sh (or modify test.py).
+- You can download the checkpoint from here: 
+
 ## Prerequisites
 
 - Creating a virtual environment in terminal: `conda create -n ESPNet python=3.8`.
