@@ -11,7 +11,7 @@
 
 ## Evaluation
 - You need to add the test datasets' paths in test.py, and the model checkpoint and results paths in test.sh (or modify test.py).
-- You can download the checkpoint from here: 
+- You can download the checkpoint from here: https://drive.google.com/file/d/161dyhkMQtXeF4EbykIGGMbXLBQ16Qbfp/view?usp=drive_link
 
 ## Prerequisites
 
