@@ -43,7 +43,7 @@ def structure_loss(preds, gt):
     loss_P3 = single_structure_loss(preds[2], gt)
     loss_P4 = single_structure_loss(preds[3], gt)
 
-    alpha, beta, gamma, zeta = 1.0, 1.5, 1.5, 2.0   
+    alpha, beta, gamma, zeta = 1.0, 1.5, 1.5, 3.0   
     #alpha, beta, gamma, zeta = 1.0, 1.0, 1.0, 1.0
     loss = alpha * loss_P1 + beta * loss_P2 + gamma * loss_P3 + zeta * loss_P4
     return loss
@@ -68,7 +68,7 @@ def multi_edge_loss(preds, gt):
     e_loss3 = edge_loss(preds[2], gt)
     e_loss4 = edge_loss(preds[3], gt)
     
-    alpha, beta, gamma, zeta = 1.0, 1.5, 1.5, 2.0
+    alpha, beta, gamma, zeta = 1.0, 1.5, 1.5, 3.0
     loss = alpha*e_loss1+ beta*e_loss2+ gamma*e_loss3+ zeta*e_loss4
     
     return loss
